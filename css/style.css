@@ -1,5 +1,5 @@
 /******* Bootstrap Theming ********/
-/*!
+/*
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.
@@ -466,6 +466,18 @@ h6, .h6 {
 @media (max-width: 1200px) {
   .display-4 {
     font-size: calc(1.475rem + 2.7vw) ;
+  }
+}
+
+@media (max-width: 700px) {
+  .display-4 {
+    font-size: calc(1.400rem + 1.7vw) ;
+  }
+}
+
+@media (max-width: 400px) {
+  .display-4 {
+    font-size: calc(1rem + 1.7vw) ;
   }
 }
 
@@ -7198,6 +7210,12 @@ button.bg-dark:focus {
   top: 0;
   right: 0;
   left: 0;
+  z-index: 1030;
+}
+
+.fixed-top-translate-button {
+  position: fixed;
+  top: 10px; right: 10px;
   z-index: 1030;
 }
 
